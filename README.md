@@ -7,7 +7,6 @@ Java Servlet を Gradle だけで実行するためのサンプルプロジェ�
 ## Requirement
 
 * Java Development Kit（JDK）：11+
-* Gradle：6+
 
 ## Install
 
@@ -18,9 +17,9 @@ $ git clone https://github.com/fumidzuki/example-simple-servlet.git
 ## Usage
 
 ```sh
+$ cd example-simple-servlet
 $ gradlew appRun
 ```
-
 
 ## Licence
 
