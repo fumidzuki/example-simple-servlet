@@ -1,4 +1,4 @@
-package com.education.controllers;
+package com.example.controllers;
 
 import java.io.IOException;
 import java.io.PrintWriter;
