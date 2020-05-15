@@ -1,0 +1,22 @@
+plugins {
+  id 'war'
+  id 'org.gretty' version '3.0.3'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  providedCompile 'javax.servlet:javax.servlet-api:4.0.1'
+}
+
+gretty {
+  servletContainer = 'tomcat9'
+}
