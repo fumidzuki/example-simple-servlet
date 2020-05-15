@@ -1,4 +1,4 @@
-# simple-webapp-gradle
+# example-simple-servlet
 
 ## Overview
 
